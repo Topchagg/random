@@ -35,6 +35,7 @@ max_range_combobox.pack()
 
 
 generate_button = tk.Button(root, text="Generate", command=generate_random_number)
+
 generate_button.pack(pady=10)
 
 result_label = tk.Label(root, text="Press to generate random number")
