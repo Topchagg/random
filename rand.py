@@ -75,6 +75,7 @@ remove_ignore_button = tk.Button(root, text="Clear ignored value", command=remov
 remove_ignore_button.pack(pady=5)
 
 generate_button = tk.Button(root, text="Generate number", command=generate_random_number)
+
 generate_button.pack(pady=10)
 
 result_label = tk.Label(root, text="Press to generate random number")
